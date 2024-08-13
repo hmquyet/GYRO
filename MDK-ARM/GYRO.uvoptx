@@ -153,17 +153,12 @@
         <Ww>
           <count>0</count>
           <WinNumber>1</WinNumber>
-          <ItemText>Angle_X</ItemText>
+          <ItemText>rawData,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>1</count>
           <WinNumber>1</WinNumber>
-          <ItemText>Angle_Y</ItemText>
-        </Ww>
-        <Ww>
-          <count>2</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>Angle_Z</ItemText>
+          <ItemText>angleRate</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>
