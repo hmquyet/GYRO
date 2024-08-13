@@ -1,12 +1,12 @@
 #include "l3gd20.h"
 #include "main.h"
-#include "spi.h" // Include your platform-specific SPI driver
+#include "spi.h" 
 
 static uint8_t spiTxBuf[2];
 static uint8_t spiRxBuf[7];
 
 void L3GD20_Init(void) {
-    // Example configuration (specific to your SPI setup)
+	
     spiTxBuf[0] = L3GD20_REG_CTRL1;
     spiTxBuf[1] = 0xFF; 
     SPI_Transmit(spiTxBuf, 2);
